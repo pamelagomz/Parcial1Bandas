@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_width">300dp</dimen>
+    <dimen name="card_height">100dp</dimen>
+    <dimen name="card_margin">20dp</dimen>
+    <dimen name="card_margin_start">40dp</dimen>
+    <dimen name="card_margin_end">40dp</dimen>
+    <dimen name="genre_margin_top">8dp</dimen>
+    <dimen name="name_margin_top">16dp</dimen>
+    <dimen name="name_margin_start">16dp</dimen>
+    <dimen name="button_margin_end">40dp</dimen>
+    <dimen name="button_margin_bottom">40dp</dimen>
+</resources>

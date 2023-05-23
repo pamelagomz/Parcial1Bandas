@@ -13,11 +13,11 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/bandItemCard"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_margin="20dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginEnd="40dp"
+            android:layout_width="@dimen/card_width"
+            android:layout_height="@dimen/card_height"
+            android:layout_margin="@dimen/card_margin"
+            android:layout_marginStart="@dimen/card_margin_start"
+            android:layout_marginEnd="@dimen/card_margin_end"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -30,8 +30,8 @@
                     android:id="@+id/textViewName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="@dimen/name_margin_start"
+                    android:layout_marginTop="@dimen/name_margin_top"
                     android:text="TextView"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -40,7 +40,7 @@
                     android:id="@+id/textViewGenre"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/genre_margin_top"
                     android:text="TextView"
                     app:layout_constraintStart_toStartOf="@+id/textViewName"
                     app:layout_constraintTop_toBottomOf="@+id/textViewName" />

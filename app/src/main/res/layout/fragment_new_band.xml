@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:gravity="center"
-            android:text="Add a new band!"/>
+            android:text="@string/add_a_new_band"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -48,7 +48,7 @@
 
         <Button
             android:layout_margin="20dp"
-            android:text="Agregar"
+            android:text="@string/agregar_button_text"
             android:backgroundTint="@color/pink"
             android:onClick="@{() -> viewmodel.createBand()}"
             android:layout_width="wrap_content"
