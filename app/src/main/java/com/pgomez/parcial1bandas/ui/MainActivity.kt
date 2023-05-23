@@ -1,7 +1,8 @@
-package com.pgomez.parcial1bandas
+package com.pgomez.parcial1bandas.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.pgomez.parcial1bandas.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
