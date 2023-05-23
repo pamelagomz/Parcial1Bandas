@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.pgomez.parcial1bandas.ui.band.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_bandFragment"
+            app:destination="@id/bandFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_newBandFragment"
+            app:destination="@id/newBandFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bandFragment"
+        android:name="com.pgomez.parcial1bandas.ui.band.BandFragment"
+        android:label="fragment_band"
+        tools:layout="@layout/fragment_band" />
+    <fragment
+        android:id="@+id/newBandFragment"
+        android:name="com.pgomez.parcial1bandas.ui.band.newband.NewBandFragment"
+        android:label="fragment_new_band"
+        tools:layout="@layout/fragment_new_band" >
+        <action
+            android:id="@+id/action_newBandFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
